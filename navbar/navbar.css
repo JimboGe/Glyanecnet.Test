@@ -27,6 +27,7 @@
     font-weight: 1000;
 }   
 .logo-brand .description{
+   
     line-height: 18px;
     color: #3A4047;
     font-size:15px;
@@ -37,40 +38,144 @@
     font-size:14px;
     line-height: 19px;
     text-align:center;
-    width:80%;
+    width:100%;
 }
 .navbar .personal-areas a{
     color:#3A4047;
     text-decoration: underline;
     transition-duration: .4s;
     transition-property: color;
+    font-size:14px;
 }
-
 .navbar .personal-areas a:hover{
     color:#1AB0CE;
 }
-.personal-areas a:nth-child(1)
-{
-    margin-right:28px;
+.personal-areas a:nth-child(2) {
+   float: right;
+   margin-top:2.5px;
 }
 .navbar .contact{
     text-align:right;
+    margin-top:7px;
 }
-.navbar .show-numbers::before{
-    width:25px;
-    height: 25px;
+.navbar .contact a{
+    margin-left:10px;
+    text-decoration: none;
+}
+.navbar .contact a:nth-child(2){
+    margin-right:5px;
+}
+.navbar .contact .phone{
+    color:#3A4047;
+    font-size:16px;
+    line-height: 19px;
+}
+.navbar .cart{
+    position: relative;
+    top:10px;
+}
+.navbar .cart::before{
+    content:'3';
+    background:black;
+    position: absolute;
+    top:-15px;
+    left:30px;
+    color:white;
+    background: #1AB0CE;
+    border:none;
+    border-radius:50%;
+    text-align:center;
+    line-height: 30px;
+    height: 30px;
+    width:30px;
+}
+.navbar .show-numbers{
+    margin-left:10px;
+    cursor: pointer;
+}
+.navbar .show-numbers>span::before{
+    display:inline-block;
+    position: absolute;
+    content: 's';
+    color:transparent;
+    right:-6px;
+    margin-top:2px;
     background:#EDEDED;
     border:none;
-    content:' ';
+    outline: none;
     border-radius: 50%;
-    cursor: pointer;
-    text-decoration: none !important;
+    text-align: center;
+    width:20px;
+    height: 20px;
+    line-height: 20px;
+}
+.navbar .arrow{
+    position: relative;
+    border: solid black;
+    border-width: 0 2.5px 2.5px 0;
+    display: inline-block;
+    padding: 3px;
+    top:-3px;
+}
+.navbar .down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.navbar .contact .visible{
+    position: relative;
+    top:10px;
+    left:130px;
+    width:219px;
+    padding:20px 0px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+}
+.navbar .contact .square-rotated{
+    width:25px;
+    height: 25px;
+    background:white;
+    transform:rotate(45deg);
+    position: absolute;
+    top:-3px;
+    left:185px;
+    background:white;
+}
+.navbar .contact .visible div.phone:nth-child(3),
+.navbar .contact .visible div.phone:nth-child(4){
+    margin-top:15px;
+}
+.navbar .contact .phone span{
+    margin-left:5px;
 }
 
-.navbar .cart{
-    position: absolute;
-    top:12px;
-    right:-35px;
-}   
 
+/*-------------------------------MAVIGATION MENU----------------------*/
+.navigation-menu{
+    margin-top:9px;
+}
+.navigation-menu a{
+    color:#3A4047 !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    padding:10px 19px;
+    border:2px solid transparent;
+    transition-property: border-top;
+    -moz-transition-property: border-top;
+    -o-transition-property: border-top;
+    transition-duration: .4s;
+    -moz-transition-duration: .4s;
+    -o-transition-duration: .4s;
+}
+.navigation-menu a h3{
+   
+    display:inline-block;
+}
+
+.navigation-menu a:hover,
+.navigation-menu a:active,
+.navigation-menu a:focus {
+    border-top:2px solid #1AB0CE;
+}
 
