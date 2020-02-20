@@ -1,0 +1,29 @@
+.section-1>div{
+   background-image:url(../images/Home.png);
+   height: 500px;
+   width:100%;
+   color:white !important;
+   text-align: center;
+
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.section-1 h2{
+    color:white;
+}
+.section-1 .header{
+    font-size:57px !important;
+    line-height: 67px !important;
+    font-weight: 500;
+}
+.section-1 hr{
+    border: 1px solid white;
+    width:8%;
+    margin:0 auto;
+}
+.section-1 .header,
+.section-1 h2,
+.section-1 hr{
+    margin-bottom:20px;
+}

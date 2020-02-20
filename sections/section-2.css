@@ -1,0 +1,57 @@
+.section-2{
+    margin-top:20px;
+}
+.section-2 h1{
+   margin-bottom:40px;
+}
+.section-2 h3{
+    font-weight: 700!important;
+}
+.section-2 ul{
+    border:1px solid #DCE1E6;
+    padding:10px 0px 10px 100px;
+    text-align:left;
+    min-height: 291px;
+    max-height: 291px;
+    overflow: hidden;
+}
+.section-2 a{
+    text-decoration: none !important;
+}
+.section-2 a p:hover,
+.section-2 a h3:hover{
+    color:#1AB0CE;
+    transition-duration: .4s;
+    -moz-transition-duration: .4s;
+    -o-transition-duration: .4s;
+}
+.section-2 li{
+    font-size:14px;
+    line-height: 16px;
+    margin-top:20px;
+}
+.section-2 ul .row{
+    padding-left:25px;
+}
+.section-2 ul .col:last-of-type{
+   margin-left:25px;
+}
+.section-2 li.header-ul{
+    font-size:16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width:100%;
+}
+.section-2 .ul-img{
+    position: absolute;
+    left:25px;
+    top:30px;
+}
+.section-2>div>div>div.col{
+    min-width:370px;
+    max-width: 370px;
+}
+.section-2>div>div>div.col{
+  margin-right:10px;
+}
