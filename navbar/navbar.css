@@ -98,7 +98,7 @@
     position: absolute;
     content: 's';
     color:transparent;
-    right:-6px;
+    right:-5.5px;
     margin-top:2px;
     background:#EDEDED;
     border:none;
@@ -122,9 +122,10 @@
     -webkit-transform: rotate(45deg);
 }
 .navbar .contact .visible{
-    position: relative;
-    top:10px;
-    left:130px;
+    position: absolute;
+    background: white;
+    top:73px;
+    right:-16px;
     width:219px;
     padding:20px 0px;
     text-align: center;
@@ -169,7 +170,6 @@
     -o-transition-duration: .4s;
 }
 .navigation-menu a h3{
-   
     display:inline-block;
 }
 
