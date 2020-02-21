@@ -1,0 +1,80 @@
+footer{
+    background:#F7F7F7; 
+    width:100%;
+    padding:25px 0px;
+    border-top:2px solid rgba(216, 215, 215, 0.274);;
+}
+footer .col{
+    padding:0;
+}
+footer .logo a:hover{
+    text-decoration:none;
+}
+footer .logo-brand {
+   top:-17px;
+}
+footer .contact{
+    text-align: right;
+}
+
+footer .contact .phone{
+    font-size: 16px !important;
+line-height: 19px !important;
+}
+footer .contact>p{
+    font-size:11px !important;
+    line-height: 13px !important;
+    text-transform: uppercase;
+}
+footer .contact>img{
+    position: absolute;
+    right:150px;
+    bottom:0px;    
+}
+footer .contact a:first-child svg{
+    margin-right:20px;
+}
+footer .contact svg{
+    margin-right:10px;
+}
+footer .mrg-btm>a:not(:first-child) p{
+    line-height: 25px !important;
+}
+footer .mrg-btm a p,
+footer .contact a:nth-of-type(4) p{
+    text-decoration-line: underline;
+    text-decoration-color:#3A4047;
+    -moz-text-decoration-color: #3A4047;
+    -moz-text-decoration-line: underline;
+    font-family: 'Roboto';
+}
+footer .mrg-btm a:hover p,
+footer .contact a:hover:nth-of-type(4) p{
+    color:#1AB0CE !important;
+    text-decoration-color:#1AB0CE;
+    -moz-text-decoration-color: #3AB0CE;
+}
+footer .contact>p{
+    margin:0;
+}
+.mrg-btm-0,
+footer .mrg-btm a:last-child p{
+    margin-bottom:0px;
+}
+footer .show-numbers{
+    margin-left:10px;
+}
+footer .show-numbers>span::before{
+    right:9px;
+    margin-top:2px;
+    background: white;
+}
+footer .show-numbers .arrow{
+    padding: 3px;
+    top:-3px;
+}
+/* Для першого значка фейсбуку та телефону */
+footer .contact a:nth-child(1),
+footer .contact a:nth-child(2){
+    text-decoration:none !important;
+}

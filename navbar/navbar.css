@@ -5,37 +5,7 @@
 .navbar{
     padding:0;
     margin-top:10px;
-}
-.logo-circles {
-    margin:0;
-    padding:0;
-    width:75px;
-    height: 75px;
-}
-.logo-circles,
-.logo-brand{
-    display:inline-block;
-}
-.logo-brand{
-   position: relative;
-   top:-10px;
-
-}
-.logo-brand .brand{
-    font-family: 'Proxima Nova';
-    line-height: 56px;
-    color: #1AB0CE;
-    font-size: 48px;
-    text-transform: uppercase;
-}   
-.logo-brand .description{
-    font-family: 'Proxima Nova';
-    line-height: 18px;
-    color: #3A4047;
-    font-size:15px;
-    margin-top:-5px;
-    margin-left:3px;
-}
+}  
 .navbar .description h3{
     text-align:center;
     padding:0;
@@ -101,29 +71,12 @@
 }
 .navbar .show-numbers{
     margin-left:10px;
-    cursor: pointer;
 }
 .navbar .show-numbers>span::before{
-    display:inline-block;
-    position: absolute;
-    content: 's';
-    color:transparent;
     right:-6px;
     margin-top:2px;
-    background:#EDEDED;
-    border:none;
-    outline: none;
-    border-radius: 50%;
-    text-align: center;
-    width:20px;
-    height: 20px;
-    line-height: 20px;
 }
 .navbar .show-numbers .arrow{
-    position: relative;
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
     padding: 3px;
     top:-3px;
 }

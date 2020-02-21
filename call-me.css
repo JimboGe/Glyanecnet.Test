@@ -1,0 +1,27 @@
+.call-me{
+    position: relative;
+    background: #1AB0CE;
+    width:108px;
+    height: 108px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+}
+.call-me a{
+    text-decoration: none !important;
+}
+.call-me.btm{
+    top:-54px;
+}
+.call-me.top{
+    top: -80px;
+    right:15px;
+}
+.call-me p{
+    color:white !important;
+    margin-top:-15px;
+}
+.call-me-container{
+    position: absolute;
+    right: 10%;
+}

@@ -22,6 +22,7 @@
 .section-4 .card{
     background: transparent; 
     border:none;
+    border-top:1px solid transparent;
     border-radius:0;
     padding:30px 10px;
     box-shadow: none;
@@ -29,16 +30,16 @@
     transition-duration: .4s;
     -moz-transition-duration: .4s;
     -o-transition-duration: .4s;
-    transition-property: background, box-shadow;
-    -moz-transition-property: background, box-shadow;
-    -o-transition-property: background,box-shadow;
+    transition-property: background, border-top;
+    -moz-transition-property: background, border-top;
+    -o-transition-property: background,border-top;
 }
 .section-4 .col{
    padding:5px;
 }
 .section-4 .card:hover{
     background:white; 
-    box-shadow: 0px 14px 24px rgba(0, 0, 0, 0.05), 0px -1px 0px #1AB0CE;
+    border-top:1px solid #1AB0CE;
 }
 .section-4 a{
     text-decoration: none !important;

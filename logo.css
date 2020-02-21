@@ -1,0 +1,30 @@
+.logo-circles {
+    margin:0;
+    padding:0;
+    width:75px;
+    height: 75px;
+}
+.logo-circles,
+.logo-brand{
+    display:inline-block;
+}
+.logo-brand{
+    position: relative;
+    top:-10px;
+ 
+ }
+ .logo-brand .brand{
+    font-family: 'Proxima Nova';
+    line-height: 56px;
+    color: #1AB0CE;
+    font-size: 48px;
+    text-transform: uppercase;
+}  
+.logo-brand .description{
+    font-family: 'Proxima Nova';
+    line-height: 18px;
+    color: #3A4047;
+    font-size:15px;
+    margin-top:-5px;
+    margin-left:3px;
+}
