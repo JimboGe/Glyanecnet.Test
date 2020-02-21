@@ -1,3 +1,7 @@
+.navbar .col{
+    padding:0 !important;
+    margin:0;
+}
 .navbar{
     padding:0;
     margin-top:10px;
@@ -5,7 +9,7 @@
 .logo-circles {
     margin:0;
     padding:0;
-    width:65px;
+    width:75px;
     height: 75px;
 }
 .logo-circles,
@@ -15,23 +19,22 @@
 .logo-brand{
    position: relative;
    top:-10px;
-}
-.logo:hover a{
-    text-decoration: none;
+
 }
 .logo-brand .brand{
+    font-family: 'Proxima Nova';
     line-height: 56px;
     color: #1AB0CE;
     font-size: 48px;
     text-transform: uppercase;
-    font-weight: 1000;
 }   
 .logo-brand .description{
-   
+    font-family: 'Proxima Nova';
     line-height: 18px;
     color: #3A4047;
     font-size:15px;
-    font-weight: 1000;
+    margin-top:-5px;
+    margin-left:3px;
 }
 .navbar .description h3{
     text-align:center;
@@ -64,7 +67,7 @@
 }
 .navbar .contact{
     text-align:right;
-    margin-top:7px;
+    margin-bottom:5px;
 }
 .navbar .contact a{
     margin-left:10px;
@@ -80,11 +83,10 @@
 }
 .navbar .cart{
     position: relative;
-    top:10px;
+    top:-2.5px;
 }
 .navbar .cart::before{
     content:'3';
-    background:black;
     position: absolute;
     top:-15px;
     left:30px;
@@ -106,7 +108,7 @@
     position: absolute;
     content: 's';
     color:transparent;
-    right:-5.5px;
+    right:-6px;
     margin-top:2px;
     background:#EDEDED;
     border:none;
@@ -117,15 +119,15 @@
     height: 20px;
     line-height: 20px;
 }
-.navbar .arrow{
+.navbar .show-numbers .arrow{
     position: relative;
     border: solid black;
-    border-width: 0 2.5px 2.5px 0;
+    border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
     top:-3px;
 }
-.navbar .down{
+.navbar .show-numbers .down{
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
@@ -163,12 +165,14 @@
 /*-------------------------------MAVIGATION MENU----------------------*/
 .navigation-menu{
     margin-top:9px;
+    padding:5px 0px;
 }
 .navigation-menu a{
     text-decoration: none !important;
     text-transform: uppercase;
-    padding:10px 19px;
-    border:2px solid transparent;
+    padding:15px 25px;
+    border-top:2px solid transparent;
+    height: 100px;
     transition-property: border-top;
     -moz-transition-property: border-top;
     -o-transition-property: border-top;

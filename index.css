@@ -1,30 +1,37 @@
+@font-face{
+    font-family: "Proxima Nova"; 
+    src: url("./fonts/ProximaNova-Black.ttf"); 
+}
+@font-face{
+    font-family: "Clear Sans"; 
+    src: url("./fonts/ClearSans.ttf"); 
+}
+
+
 *{
     margin:0;
     padding:0;
-}
-
-.col{
-    padding:0 !important;
-    margin:0;
+    font-family: 'Clear Sans';
 }
 
 p{
     font-size: 14px !important;
     line-height: 16px !important;
-    color: #3A4047 ;
+    color: #3A4047;
+    
 }
 
 h1{
     font-size: 36px !important;
     line-height: 42px !important;
     font-weight: 400 !important;
-    color: #3A4047 ;
+    color: #3A4047;
 }
 h2{
     font-size: 24px !important;
     line-height: 28px !important;
     font-weight: 400 !important;
-    color: #3A4047 ;
+    color: #3A4047;
 }
 h3{
     font-size:16px !important;
@@ -35,7 +42,7 @@ h3{
 h4{
     font-size: 24px !important;
     line-height: 28px !important;
-    color: #3A4047 ;
+    color: #3A4047;
 }
 ul{
     list-style: none;
@@ -89,4 +96,19 @@ input[type=button].main-btn:hover{
     -webkit-box-shadow: 0px 0px 25px 0px rgba(26,176,206,1);
     -moz-box-shadow: 0px 0px 25px 0px rgba(26,176,206,1);
     box-shadow: 0px 0px 25px 0px rgba(26,176,206,1);
+}
+
+.call-me{
+    position: absolute;
+    top:0;
+    background: #1AB0CE;
+    width:108px;
+    height: 108px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+}
+.call-me p{
+    color:white;
+    margin-top:-15px;
 }
