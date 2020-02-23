@@ -1,0 +1,19 @@
+@media (max-width:1500px){
+    .call-me-container{
+      right: 10px;
+    }
+    .call-me-container .call-me.btm{
+      top:-120px;
+    }
+  }
+  @media (max-width:768px){
+    .call-me-container{
+      position:fixed;
+      right: 25px;
+      bottom: -90px;
+     }
+    .call-me-container .call-me.top{
+      display:none;
+    }
+   
+}

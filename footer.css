@@ -2,7 +2,8 @@ footer{
     background:#F7F7F7; 
     width:100%;
     padding:25px 0px;
-    border-top:2px solid rgba(216, 215, 215, 0.274);;
+    border-top:2px solid rgba(216, 215, 215, 0.274);
+    z-index: 2;
 }
 footer .col{
     padding:0;
@@ -16,7 +17,6 @@ footer .logo-brand {
 footer .contact{
     text-align: right;
 }
-
 footer .contact .phone{
     font-size: 16px !important;
 line-height: 19px !important;
@@ -28,8 +28,8 @@ footer .contact>p{
 }
 footer .contact>img{
     position: absolute;
-    right:150px;
-    bottom:0px;    
+    right:150px;  
+    margin-top:-2px;
 }
 footer .contact a:first-child svg{
     margin-right:20px;
@@ -62,10 +62,10 @@ footer .mrg-btm a:last-child p{
     margin-bottom:0px;
 }
 footer .show-numbers{
-    margin-left:10px;
+    margin-left:-20px;
 }
 footer .show-numbers>span::before{
-    right:9px;
+    right:-18px;
     margin-top:2px;
     background: white;
 }

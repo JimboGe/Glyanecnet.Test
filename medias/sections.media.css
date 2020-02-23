@@ -1,0 +1,23 @@
+@media (max-width:768px){
+.section-1 .header{
+    font-size:32px !important;
+    padding:0 25px;
+  }
+  .section-1 hr{
+    width:35%;
+  }
+  .section-1 h2{
+    font-size:20px !important; 
+  }
+  .section-2 .products-info>.col{
+    min-width:100%;
+  }
+  .section-4 .row{
+    flex:none;
+    margin:0 !important;
+  }
+  .section-4 .col{
+    flex:none;
+    text-align: center;
+  }
+}

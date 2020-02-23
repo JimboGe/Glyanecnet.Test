@@ -15,6 +15,11 @@
     src: url("./fonts/Cuprum-Regular.ttf"); 
 }
 
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
 *{
     margin:0;
     padding:0;
@@ -118,7 +123,7 @@ a p {
 }
 .show-numbers>span::before{
     display:inline-block;
-    position: absolute;
+    position: relative;
     content: 's';
     color:transparent;
     right:-6px;
@@ -143,4 +148,7 @@ a p {
 .show-numbers .down{
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+.row{
+    margin-right:0px;
 }

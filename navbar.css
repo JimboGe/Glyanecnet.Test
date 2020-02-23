@@ -4,13 +4,13 @@
 }
 .navbar{
     padding:0;
-    margin-top:10px;
+    background: white !important;
+    
 }  
 .navbar .description h3{
     text-align:center;
     padding:0;
     margin-bottom:1em;
-    font-weight: 400 !important;
 }
 .navbar .description p{
     text-align:center;
@@ -24,7 +24,6 @@
     text-decoration: underline;
     transition-duration: .4s;
     transition-property: color;
-    font-size:14px;
 }
 .navbar .personal-areas a:hover p{
     color:#1AB0CE !important;
@@ -32,8 +31,8 @@
 .navbar a{
     text-decoration: none !important;
 }
-.personal-areas a:nth-child(2) {
-   float: right;
+.personal-areas a:nth-child(1) {
+   padding-right: 45px;
 }
 .navbar .contact{
     text-align:right;
@@ -49,7 +48,6 @@
 .phone,
 .phone h3{
     display:inline-block;
-    font-weight: 500;
 }
 .navbar .cart{
     position: relative;
@@ -69,11 +67,11 @@
     height: 30px;
     width:30px;
 }
-.navbar .show-numbers{
-    margin-left:10px;
+.navbar .show-numbers {
+    margin-left:-15px !important;
 }
 .navbar .show-numbers>span::before{
-    right:-6px;
+    right:-19px;
     margin-top:2px;
 }
 .navbar .show-numbers .arrow{
@@ -113,7 +111,9 @@
 .navbar .contact .phone h3{
     margin-left:5px;
 }
-
+.navbar .menu-btn{
+    display: none;
+}
 
 /*-------------------------------MAVIGATION MENU----------------------*/
 .navigation-menu{
@@ -146,3 +146,30 @@
     border-top:2px solid #1AB0CE;
 }
 
+.navigation-menu .close{
+    position: absolute;
+    right: 32px;
+    top: 30px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.navigation-menu .close:hover {
+  opacity: 1;
+}
+.navigation-menu .close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  top:0;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.navigation-menu .close:before {
+  transform: rotate(45deg);
+}
+.navigation-menu  .close:after {
+  transform: rotate(-45deg);
+}

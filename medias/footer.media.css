@@ -1,0 +1,98 @@
+@media (max-width:768px) {
+  footer .logo-circles{
+    position: relative;
+  }
+  /* Three columns without middle link column */
+  footer .col-3:nth-of-type(1),
+  footer .col-3:nth-of-type(2),
+  footer .col-3:nth-of-type(5){
+    min-width:100%;
+    width:100%;
+  }
+  /* Two link columns on the middle*/
+  footer .col-2:nth-of-type(3),
+  footer .col:nth-of-type(4){
+    min-width: 50% !important;
+    margin-top:25px;
+  }
+  footer .contact {
+   text-align: left;
+   margin-top:25px;
+  }
+  footer .contact>p{
+    position: relative;
+    margin-top:-5px !important;
+    margin-left:35px;
+  }
+  footer .contact img{
+    margin-top:-7px !important;
+    left:15px;
+  } 
+}
+@media (max-width:995px) and (min-width:768px){
+ 
+  footer .col-3:first-of-type>p{
+    margin-left:15px !important;
+  }
+  footer b{
+    font-size:14px;
+  }
+
+}
+@media (max-width:992px) and (min-width:769px){
+  footer .col{
+    padding:0px 15px;
+  }
+  footer .col.mrg-btm{
+    margin-left:-15px;
+  }
+  footer .col-3:last-child{
+    max-width: 20%;
+  }
+  /* Svg facebook and phone */
+  footer .contact a:nth-child(1),
+  footer .contact a:nth-child(2){
+    display:none;
+  }
+  footer i.arrow{
+    position: absolute !important;
+    top:0px !important;
+    margin-left:3.5px;
+  }
+}
+@media (max-width:1001px) and (min-width:769px){
+  footer .contact{
+    text-align:left !important;
+    margin-top:-7.5px;
+  }
+  footer .contact a:first-child svg{
+    margin-right:10px!important;
+  }
+  footer .contact>img{
+    position: relative;
+    right: 0;
+    top:-5px;
+  }
+  footer .contact>p{
+    margin-left:25px;
+    margin-top:-26px !important;
+  }
+}
+@media (max-width:1200px) and (min-width:768px){
+  footer .logo-circles{
+    display:none;
+  }
+  footer .logo-brand{
+    top:0;
+    margin-bottom:10px;
+  }
+  footer .contact>p,
+  footer .contact>img{
+    margin-top:-10px;
+  }
+}
+@media (max-width:1200px) and (min-width:0px){
+  footer .container{
+      max-width: 100%;
+  }
+}
