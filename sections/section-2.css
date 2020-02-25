@@ -9,7 +9,7 @@
 }
 .section-2 ul{
     border:1px solid #DCE1E6;
-    padding:10px 0px 10px 100px;
+    padding:10px 0px 25px 110px;
     text-align:left;
     min-height: 291px;
     max-height: 291px;
@@ -32,7 +32,8 @@
     padding:0;
 }
 .section-2 ul .row{
-    padding-left:25px;
+    padding-left:15px;
+    margin-top:-5px;
 }
 .section-2 li.header-ul{
     text-transform: uppercase;

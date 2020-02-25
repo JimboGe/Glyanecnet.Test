@@ -123,7 +123,7 @@
 .navigation-menu a{
     text-decoration: none !important;
     text-transform: uppercase;
-    padding:15px 25px;
+    padding:15px 0px;
     border-top:2px solid transparent;
     height: 100px;
     transition-property: border-top;
@@ -135,6 +135,8 @@
 }
 .navigation-menu a h3{
      font-weight: 700;
+     border-right: 1px solid #E8EDF2;
+     padding: 0px 25px;
 }
 .navigation-menu a h3{
     display:inline-block;
